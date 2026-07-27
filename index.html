@@ -4,33 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Casa de Umbanda</title>
+  <title>Centro Umbandista Rei de Oxossi</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-[#f7f8f4]">
 
   <!-- Header -->
-  <header class="flex items-center justify-between px-8 py-4 bg-white border-b border-gray-200">
+  <header class="flex flex-col md:flex-row items-center justify-between px-4 md:px-8 py-4 bg-white border-b border-gray-200">
     <h2 class="font-bold text-[#1b4332]">Casa de Umbanda</h2>
-    <nav class="flex items-center gap-2 text-sm font-medium text-gray-600">
+    <nav class="flex items-center gap-2 text-sm font-medium text-gray-600 overflow-x-auto max-w-full pb-2 md:pb-0 whitespace-nowrap">
       <a href="#" class="bg-[#dce9be] text-[#1b4332] px-4 py-2 rounded-full font-semibold">Início</a>
       <a href="#horarios" class="px-4 py-2 hover:text-[#1b4332]">Horários</a>
-      <a href="#" class="px-4 py-2 hover:text-[#1b4332]">Sobre</a>
-      <a href="#" class="px-4 py-2 hover:text-[#1b4332]">Eventos</a>
-      <a href="#" class="px-4 py-2 hover:text-[#1b4332]">Galeria</a>
-      <a href="#" class="px-4 py-2 hover:text-[#1b4332]">Dúvidas</a>
-      <a href="#" class="px-4 py-2 hover:text-[#1b4332]">Localização</a>
+      <a href="#" class="px-4 py-2 hover:text-[#1b4332] sharink-0">Sobre</a>
+      <a href="#" class="px-4 py-2 hover:text-[#1b4332] sharink-0">Eventos</a>
+      <a href="#" class="px-4 py-2 hover:text-[#1b4332] sharink-0">Galeria</a>
+      <a href="#" class="px-4 py-2 hover:text-[#1b4332] sharink-0">Dúvidas</a>
+      <a href="#" class="px-4 py-2 hover:text-[#1b4332] sharink-0">Localização</a>
     </nav>
   </header>
 
   <!-- Hero Section -->
   <main class="max-w-4xl mx-auto px-6 py-20 text-center">
     <section>
-      <span class="inline-block bg-[#dce9be] text-[#1b4332] px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6">
+      <span class="inline-block bg-[#dce9be] text-[#1b4332] px-4 py-2.5 rounded-full text-xl font-bold uppercase tracking-wider mb-6">
         Bem-vindos ao Centro Umbandista Rei de Oxóssi
       </span>
-      <h1 class="text-4xl md:text-5xl font-bold text-[#1b4332] mb-6 leading-tight">
+      <h1 class="text-4xl md:text-3xl font-semibold text-[#1b4332] mb-6 leading-tight">
         Santuário de Fé e Caridade
       </h1>
       <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-10">
@@ -78,18 +78,7 @@
   <section id="horarios" class="py-16 bg-gray-50">
     <div class="max-w-6xl mx-auto px-6">
       
-      <!-- 1. Título da Seção -->
-      <div class="text-center mb-8">
-        <h2 class="text-3xl font-bold text-[#1b4332]">Regras & Avisos</h2>
-      </div>
-
-      <!-- 2. Bloco de Regras -->
-      <div class="bg-amber-50 border-l-4 border-amber-500 p-4 mb-8 max-w-6xl mx-auto rounded-r-lg shadow-sm">
-        <p class="text-amber-900 font-medium">• Use roupas de tons claros ou brancas</p>
-        <p class="text-amber-900 font-medium">• Proibido o uso de shorts curtos, decotes ou minissaias</p>
-      </div>
-
-      <!-- 3. Grid dos 3 Cards de Horários -->
+      <!-- Grid dos 3 Cards de Horários -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
         
         <!-- Card 1: Atendimento Semanal -->
@@ -130,10 +119,9 @@
           </div>
           <p class="text-xs text-gray-400 pt-4 border-t border-gray-100">* Dia de Louvar os Nossos Ancestrais.</p>
         </div>
-
       </div>
 
-      <!-- 4. Bloco da Agenda em Largura Total -->
+      <!--Bloco da Agenda em Largura Total -->
       <div class="flex flex-col gap-3">
         <h3 class="text-xl font-bold text-[#1b4332]">Próximas Festividades</h3>
         <iframe 
@@ -142,6 +130,16 @@
         </iframe>
       </div>
 
+      <!-- 1. Título da Seção -->
+      <div class="text-center mb-8 mt-6">
+        <h2 class="text-3xl font-bold text-[#1b4332]">Regras & Avisos</h2>
+      </div>
+
+      <!-- 2. Bloco de Regras -->
+      <div class="bg-amber-50 border-l-4 border-amber-500 p-4 mb-8 max-w-6xl mx-auto rounded-r-lg shadow-sm">
+        <p class="text-amber-900 font-medium">• Use roupas de tons claros ou brancas</p>
+        <p class="text-amber-900 font-medium">• Proibido o uso de shorts curtos, decotes ou minissaias</p>
+      </div>
     </div> 
   </section>
 
